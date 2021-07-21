@@ -1,0 +1,113 @@
+:root{
+    color: black;
+    background-color: #EEEEEE;
+}
+@font-face {
+    font-family: Lato;
+    src: url(Lato-Regular.ttf);
+}
+a{
+    color: black;
+}
+/* Top of Container */
+main{
+    position: relative;
+    
+    padding-top: 4rem;
+}
+#main-top{
+    text-align: center;
+}
+#email{
+    width: 15%;
+    height: 1.5rem;
+    margin-top: 1rem;
+}
+#submit{
+    background-color: #F1C40F;
+    font-weight: bolder;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border: none;
+}
+/* End */
+
+/* Middle of Container */
+#main-middle{
+    margin-top: 5rem;
+}
+.main-middle__item{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20%;    
+    margin-bottom: 3rem;
+}
+.main-middle__item__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5rem;
+}
+.main-middle__item__content p, h1{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+iframe{
+    margin-left: 25rem;
+}
+/* end */
+/* Bottom of Container */
+#main-bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.main-bottom__box{
+    border: 1px solid black;
+    text-align: center;
+    width: 20rem;
+    height: 20rem;    
+    margin-left: 1rem;
+}
+h3{
+    background-color: #DDDDDD;
+    margin: 0;
+    padding: 1rem 0 1rem 0;
+}
+#button{
+    background-color: #F1C40F;
+    padding: 0.75rem 1.5rem 0.75rem 1.5rem;
+    border: none;
+    margin-top: 0.5rem;
+}
+/* end */
+/* end container */
+/* footer */
+#footer{
+    display: flex;
+    justify-content: center;
+}
+#footer-box{
+    width: 75%;
+    margin-top: 1.5rem;
+    padding: 1rem 0 1rem 0;
+    background-color: #DDDDDD;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+}
+#footer-box__nav, #copyright{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 2rem;
+}
+.footer-nav-link{
+    text-decoration: none;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+}
+#copyright{
+    margin: 0px;
+    font-weight: lighter;
+}

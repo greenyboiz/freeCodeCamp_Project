@@ -1,0 +1,22 @@
+:root{
+    color: black;
+}
+#header{
+    position: fixed;
+    background-color: #EEEEEE;
+    top: 0px;
+    z-index: 3;
+
+}
+#header-img{
+    padding-top: 0.5rem;
+}
+#nav-bar{
+    float: right;
+    padding-top: 0.75rem;
+}
+.nav-link{
+    padding-right: 4rem;
+    text-decoration: none;
+    font-size: 1.25rem;
+}

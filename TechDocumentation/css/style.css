@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+/* Common CSS */
+
+html, body{
+    font-size: 62.5%;
+    font-size: 1rem;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.4;
+}
+
+:root{
+    --black-color: #000;
+    --white-color: #fff;
+    --gray-color: #ccc;
+    --light-gray-color: rgb(247, 247, 247);
+    --header-font: 1.3rem;
+    --header-weight: 900;
+    --content-font: 1rem;
+}
+
+header{
+    font-weight: var(--header-weight);
+    font-size: var(--header-font);
+    padding-bottom: 1rem;
+}
+
+.mb-1{
+    margin-bottom: 1rem;
+}
+
+/* Nav bar */
+
+.navbar{
+    width: 21%;
+    height: 100%;
+    border-right: 2px solid var(--gray-color);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.navbar__header{
+    padding: 1rem;
+}
+
+.navbar__items{
+    width: 100%;
+    height: 91%;
+    max-height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.navbar__items li{
+    padding: 0.5rem 0 0.5rem 1rem;
+    margin-right: 0.1rem;
+    border-top: 1px solid var(--black-color);
+}
+
+.navbar__items .navbar__links{
+    text-decoration: none;
+    color: var(--black-color);
+}
+
+/* end Nav bar */
+
+/* Main section */
+.main-section{
+    position: absolute;
+    margin-left: 16rem;
+    padding: 1.5rem;
+}
+
+.content-section article{
+    margin-left: 1rem;
+    font-size: var(--content-font);
+}
+
+.content-section article ul{
+    margin-left: 3rem;
+    list-style-type: disc
+}
+
+.content-section code{
+    display: block;
+    text-align: left;
+    white-space: pre-line;
+    position: relative;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 2;
+    background-color: #f7f7f7;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 5px;
+}
+
+
+/* end Main section */
